@@ -24,9 +24,10 @@ search access.
 **Elasticsearch** and **Apache Tika** are the tools used to read the text files into the _document oriented_ database.
 **Django Haystack** is a _full text_ search client that the REST API may use.
 
-1. [Django Haystack search client](https://django-haystack.readthedocs.io/en/master/)
-2. [ES Attachment Process (with Tika)](https://www.elastic.co/guide/en/elasticsearch/reference/current/attachment.html#using-attachment)
-3. [Apache Tika Content Analysis Toolkit](https://tika.apache.org/)
+1. [ES Attachment Process (with Tika)](https://www.elastic.co/guide/en/elasticsearch/reference/current/attachment.html#using-attachment)
+2. [Apache Tika Content Analysis Toolkit](https://tika.apache.org/)
+3. [Django Haystack search client](https://django-haystack.readthedocs.io/en/master/)
+4. [Python Elasticsearch Client](https://elasticsearch-py.readthedocs.io/en/v8.8.0/) and [Overview](https://www.elastic.co/guide/en/elasticsearch/client/python-api/current/overview.html)
 
 ### REST API Tools
 
