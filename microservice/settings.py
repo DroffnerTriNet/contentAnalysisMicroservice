@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'corsheaders',
+    'django_opensearch_dsl',
 ]
 
 MIDDLEWARE = [
@@ -134,4 +135,12 @@ CORS_ALLOWED_ORIGINS = []
 REST_FRAMEWORK = {
     'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
     'PAGE_SIZE': 10
+}
+
+# OpenSearch DSL (not Elasticsearch)
+
+OPENSEARCH_DSL = {
+    'default': {
+        'hosts': 'localhost:9200'
+    },
 }
