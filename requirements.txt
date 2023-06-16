@@ -4,3 +4,7 @@ djangorestframework
 markdown       # Markdown support for the browsable API.
 django-filter  # Filtering support
 django-cors-headers
+
+# Opensearch (not Elasticsearch) DSL Client
+chardet  # Seems to be missing from dependencies
+django-opensearch-dsl

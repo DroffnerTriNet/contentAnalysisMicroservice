@@ -19,15 +19,22 @@ search access.
 
 ## Related Links
 
-### Content Analysis and Search Tools
+### Content Analysis
 
-**Elasticsearch** and **Apache Tika** are the tools used to read the text files into the _document oriented_ database.
-**Django Haystack** is a _full text_ search client that the REST API may use.
+**OpenSearch (Elasticsearch fork)** and **Apache Tika** are the services used to read the rich-text 
+files into the _document oriented_ database.
 
-1. [ES Attachment Process (with Tika)](https://www.elastic.co/guide/en/elasticsearch/reference/current/attachment.html#using-attachment)
+1. [ES Attachment Processor (with Tika)](https://www.elastic.co/guide/en/elasticsearch/reference/current/attachment.html#using-attachment)
 2. [Apache Tika Content Analysis Toolkit](https://tika.apache.org/)
-3. [Django Haystack search client](https://django-haystack.readthedocs.io/en/master/)
-4. [Python Elasticsearch Client](https://elasticsearch-py.readthedocs.io/en/v8.8.0/) and [Overview](https://www.elastic.co/guide/en/elasticsearch/client/python-api/current/overview.html)
+
+### Search Tools
+
+The **OpenSearch** service is an incompatible fork of _Elasticsearch_ that **AWS** uses.
+**Django Haystack** is a _full text_ search client that **OpenSearch** might be able to use.
+
+1. [Install OpenSearch Service](https://formulae.brew.sh/formula/opensearch) for development
+2. [Django Haystack search client](https://django-haystack.readthedocs.io/en/master/)
+3. [Django OpenSearch DSL Client](https://django-opensearch-dsl.readthedocs.io/en/latest/)
 
 ### REST API Tools
 
