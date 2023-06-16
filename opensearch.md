@@ -32,7 +32,7 @@ export PATH
 The `ingest-attachment` plugin must be added to the **homebrew** service.
 
 ```bash
-(venv-py3.9) adroffner@MX2MJXCKGLQ contentAnalysisMicroservice % opensearch-plugin install ingest-attachment 
+% opensearch-plugin install ingest-attachment 
 warning: no-jdk distributions that do not bundle a JDK are deprecated and will be removed in a future release
 -> Installing ingest-attachment
 -> Downloading ingest-attachment from opensearch
