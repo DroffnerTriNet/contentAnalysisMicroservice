@@ -1,6 +1,9 @@
 # Opensearch Installation
 
 This document describes how **Opensearch** should be installed for this project.
+The **ingest-attachment** plugin must be installed!
+
+- View [Opensearch Plugins List](http://localhost:9200/_cat/plugins?v) to see **ingest-attachment**
 
 ## Opensearch on AWS
 
